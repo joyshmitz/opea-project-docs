@@ -8,8 +8,9 @@ GenAIExamples are designed to give developers an easy entry into generative AI, 
 .. toctree::
    :maxdepth: 1
 
+   AgentQnA/AgentQnA_Guide
    ChatQnA/ChatQnA_Guide
-   ChatQnA/deploy/index
+   CodeGen/CodeGen_Guide
 
 ----
 
@@ -23,19 +24,6 @@ We're building this documentation from content in the
    :glob:
 
    /GenAIExamples/README
+   examples.rst
    /GenAIExamples/*
 
-**Example Applications Table of Contents**
-
-.. rst-class:: rst-columns
-
-.. contents::
-   :local:
-   :depth: 1
-
-----
-
-.. comment This include file is generated in the Makefile during doc build
-   time from all the directories found in the GenAIExamples top level directory
-
-.. include:: examples.txt

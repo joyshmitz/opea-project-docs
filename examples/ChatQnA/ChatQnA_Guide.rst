@@ -204,16 +204,34 @@ The gateway serves as the interface for users to access. The gateway routes inco
 Deployment
 **********
 
-See the :ref:`chatqna-example-deployment` that includes both single-node and
-orchestrated multi-node configurations, and choose the one that best fits your
-requirements.  Here are quick references to the single-node deployment options:
+Here are some deployment options depending on your hardware and environment. 
+It includes both single-node and orchestrated multi-node configurations. 
+Choose the one that best fits your requirements. 
 
-* :doc:`Xeon Scalable Processor <deploy/xeon>`
-* :doc:`Gaudi AI Accelerator <deploy/gaudi>`
-* :doc:`Nvidia GPU <deploy/nvidia>`
-* :doc:`AI PC <deploy/aipc>`
+Single Node
+***********
 
+.. toctree::
+   :maxdepth: 1
 
+   Xeon Scalable Processor <deploy/xeon>
+   Gaudi AI Accelerator <deploy/gaudi>
+   Nvidia GPU <deploy/nvidia>
+   AI PC <deploy/aipc>
+   
+----
+
+Kubernetes
+**********
+
+* Xeon & Gaudi with GMC
+* Xeon & Gaudi without GMC
+* Using Helm Charts
+
+Cloud Native
+************
+
+* Red Hat OpenShift Container Platform (RHOCP)
 
 Troubleshooting
 ***************
